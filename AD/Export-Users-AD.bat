@@ -1,0 +1,1 @@
+csvde -f adusers.csv -r "(&(objectClass=user)(objectCategory=person))" -l "displayName, sAMAccountName, mail, description, userAccountControl"
